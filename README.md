@@ -1,5 +1,5 @@
 # twilio-taskrouter-ruby
-Twilio TaskRouter Example in Ruby, courtesy of @philnash
+Twilio TaskRouter Example in Ruby, courtesy of @philnash 's excellent blog post https://www.twilio.com/blog/2015/02/creating-a-priority-queue-for-your-call-centre-with-taskrouter.html
 
 ## Deploy to Heroku
 Press the purple button below. Input your credentials into the Heroku
