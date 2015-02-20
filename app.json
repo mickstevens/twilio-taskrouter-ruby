@@ -1,0 +1,41 @@
+{
+    "name": "Twilio TaskRouter Example in Ruby, courtesy of @philnash's excellent blog post",
+    "description": "A Ruby/Twilio App for Creating a Priority Queue for your Call Centre with TaskRouter",
+    "keywords": [
+        "twilio",
+        "call center",
+        "taskrouter",
+        "ruby"
+    ],
+    "website": "https://www.twilio.com/blog/2015/02/creating-a-priority-queue-for-your-call-centre-with-taskrouter.html",
+    "repository": "https://github.com/mickstevens/twilio-taskrouter-ruby",
+    "logo": "https://www.twilio.com/bundles/marketing/img/logos/wordmark-red.svg",
+    "env": {
+        "TWILIO_ACCOUNT_SID": {
+            "description": "Your Twilio account's unique identifier, found here: https://www.twilio.com/user/account",
+            "value": "AC********************************"
+        },
+        "TWILIO_AUTH_TOKEN": {
+            "description": "Your Twilio account's secret key, found here: https://www.twilio.com/user/account",
+            "value": "**********************************"
+        },
+        "TWILIO_WORKSPACE_SID": {
+            "description": "Twilio Workspace SID for workspace you want to use for this TaskRouter App",
+            "value": "WS********************************"
+        },
+        "TWILIO_WORKFLOW_SID": {
+            "description": "Twilio Workflow SID (different from Workspace) for workspace you want to use for this TaskRouter App",
+            "value": "WW********************************"
+        },
+        "TWILIO_IDLE_SID": {
+            "description": "Twilio Activity SID (different from Workspace) to set your Worker back to Idle after each call",
+            "value": "WA********************************"
+        },
+
+        "PRIORITY_NUMBER": {
+            "description": "The Twilio phone no you wish to use to bypass the queue",
+            "value": "12345678900"
+        }
+    },
+    "success_url": "/"
+}
