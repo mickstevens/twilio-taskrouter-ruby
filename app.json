@@ -1,5 +1,5 @@
 {
-    "name": "Twilio TaskRouter Example in Ruby, courtesy of @philnash's excellent blog post",
+    "name": "Twilio TaskRouter Ruby Example",
     "description": "A Ruby/Twilio App for Creating a Priority Queue for your Call Centre with TaskRouter",
     "keywords": [
         "twilio",
